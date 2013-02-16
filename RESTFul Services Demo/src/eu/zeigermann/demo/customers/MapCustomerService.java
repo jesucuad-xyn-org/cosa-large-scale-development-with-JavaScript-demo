@@ -3,12 +3,13 @@ package eu.zeigermann.demo.customers;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
+import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.ConcurrentMap;
 
 @SuppressWarnings("all")
 public class MapCustomerService implements CustomerService {
-	private static ConcurrentMap<Integer, Customer> customers = new ConcurrentHashMap<Integer, Customer>();
+	private static Map<Integer, Customer> customers = new ConcurrentHashMap<Integer, Customer>();
 
 	@Override
 	public Collection<Customer> getAll() {

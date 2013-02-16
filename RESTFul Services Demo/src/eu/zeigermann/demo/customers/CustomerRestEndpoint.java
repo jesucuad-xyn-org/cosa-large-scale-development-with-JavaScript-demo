@@ -11,6 +11,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+import com.fasterxml.jackson.databind.ObjectMapper;
 import com.google.gson.Gson;
 
 @SuppressWarnings("serial")
@@ -18,7 +19,10 @@ public class CustomerRestEndpoint extends HttpServlet {
 	
 	private Logger logger = Logger.getLogger(CustomerRestEndpoint.class.getName());
 
-	private CustomerService customerService = new MapCustomerService(); 
+//	private CustomerService customerService = new MapCustomerService(); 
+	private CustomerService customerService = new MemcacheCustomerService(); 
+
+	private ObjectMapper mapper = new ObjectMapper();
 
 	@Override
 	protected void doPost(HttpServletRequest req, HttpServletResponse resp)
@@ -74,15 +78,20 @@ public class CustomerRestEndpoint extends HttpServlet {
 		setCORSHeaders(resp);
 	}
 
-
 	@Override
+	// does both REST / CORS calls as well as jsonp
+	//http://devlog.info/2010/03/10/cross-domain-ajax/
 	protected void doGet(HttpServletRequest req, HttpServletResponse resp)
 			throws ServletException, IOException {
 		logger.info("Performing GET");
 		Collection<Customer> customers = customerService.getAll();
-		String stringified = stringify(customers);
-		resp.setHeader("Content-Type", "application/json");
-		completeCall(resp, stringified);
+		String callback = req.getParameter("callback");
+		passResult(resp, customers, callback);
+		if (callback == null) {
+			setCORSHeaders(resp);
+		} else {
+			setJsonpHeaders(resp);
+		}
 	}
 	
 	@Override
@@ -102,6 +111,12 @@ public class CustomerRestEndpoint extends HttpServlet {
 		resp.setHeader("Access-Control-Allow-Headers", "ACCEPT, ORIGIN, X-REQUESTED-WITH, CONTENT-TYPE");
 	}
 	
+	private void setJsonpHeaders(HttpServletResponse resp) {
+		resp.setHeader("Content-Type", "text/javascript");
+		resp.setHeader("Cache-Control", "no-cache");
+		resp.setHeader("Pragma", "no-cache");
+	}
+
 	private Customer parseCustomer(HttpServletRequest req) {
 		final Customer customer = new Customer();
 		final String pathInfo = req.getPathInfo();
@@ -132,25 +147,19 @@ public class CustomerRestEndpoint extends HttpServlet {
 		return customer;
 	}
 
-	private String stringify(Collection<Customer> customers) {
-		String string = "[";
-		Iterator<Customer> iterator = customers.iterator();
-		for (int i = 0; i < customers.size(); i++) {
-			Customer customer = iterator.next();
-			string += stringify(customer);
-			if (i < customers.size() - 1) {
-				string += ",\n";
+	private void passResult(HttpServletResponse resp, Object result,
+			String callback) {
+		try {
+			String json = mapper.writeValueAsString(result);
+			if (callback != null) {
+				json = callback+"(" + json + ");";
 			}
+			logger.info("Result: " + json);
+			resp.setHeader("Content-Type", "application/json");
+			resp.getWriter().write(json);
+		} catch (IOException e) {
+			throw new RuntimeException(e);
 		}
-		string += "]";
-		return string;
-	}
-	
-	
-	private String stringify(Customer customer) {
-		return "{\"id\": \"" + customer.id + "\", \"name\": \"" + customer.name
-				+ "\", \"age\": \"" + customer.age + "\", \"gender\": \"" + customer.gender
-				+ "\"}";
 	}
 
 }

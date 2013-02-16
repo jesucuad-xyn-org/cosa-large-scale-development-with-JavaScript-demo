@@ -1,6 +1,9 @@
 package eu.zeigermann.demo.customers;
 
-public class Customer {
+import java.io.Serializable;
+
+@SuppressWarnings("serial")
+public class Customer implements Serializable {
 	public int id;
 	public String name;
 	public int age;
