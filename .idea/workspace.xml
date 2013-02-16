@@ -1,28 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="71627976-4bf9-4b8d-b830-7ba7f598d2c3" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/RESTFul Services Demo/war/WEB-INF/lib/jackson-annotations-2.1.1.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/RESTFul Services Demo/war/WEB-INF/lib/jackson-core-2.1.1.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/RESTFul Services Demo/war/WEB-INF/lib/jackson-databind-2.1.1.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/RESTFul Services Demo/src/eu/zeigermann/demo/customers/MemcacheCustomerService.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/RESTFul Services Demo/war/WEB-INF/lib/gson-2.2.2.jar" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/RESTFul Services Demo/.classpath" afterPath="$PROJECT_DIR$/RESTFul Services Demo/.classpath" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/RESTFul Services Demo/war/WEB-INF/lib/.gitignore" afterPath="$PROJECT_DIR$/RESTFul Services Demo/war/WEB-INF/lib/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/RESTFul Services Demo/src/eu/zeigermann/demo/customers/Customer.java" afterPath="$PROJECT_DIR$/RESTFul Services Demo/src/eu/zeigermann/demo/customers/Customer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/RESTFul Services Demo/src/eu/zeigermann/demo/customers/CustomerRestEndpoint.java" afterPath="$PROJECT_DIR$/RESTFul Services Demo/src/eu/zeigermann/demo/customers/CustomerRestEndpoint.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/RESTFul Services Demo/src/eu/zeigermann/demo/customers/MapCustomerService.java" afterPath="$PROJECT_DIR$/RESTFul Services Demo/src/eu/zeigermann/demo/customers/MapCustomerService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/RESTFul Services Demo/.settings/com.google.appengine.eclipse.core.prefs" afterPath="$PROJECT_DIR$/RESTFul Services Demo/.settings/com.google.appengine.eclipse.core.prefs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/RESTFul Services Demo/war/app/persons-remote.html" afterPath="$PROJECT_DIR$/RESTFul Services Demo/war/app/persons-remote.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/RESTFul Services Demo/war/app/persons-remote.js" afterPath="$PROJECT_DIR$/RESTFul Services Demo/war/app/persons-remote.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/RESTFul Services Demo/war/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/RESTFul Services Demo/war/WEB-INF/web.xml" />
+    <list default="true" id="71627976-4bf9-4b8d-b830-7ba7f598d2c3" name="Default" comment="Added support for&#10;- JSONP&#10;- Memcache Service on Google App Engine&#10;- Jackson generated JSON">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application SPA Web Client - Fat.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application SPA Web Client - Lean.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application Stability.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="large-scale-development-with-JavaScript-demo.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="71627976-4bf9-4b8d-b830-7ba7f598d2c3" time="1361012615086" ignored="false" />
+    <file path="/Dummy.txt" changelist="71627976-4bf9-4b8d-b830-7ba7f598d2c3" time="1361036212914" ignored="false" />
     <file path="$APPLICATION_HOME_DIR$/lib/webstorm.jar!/standardSchemas/html5/xhtml5.xsd" changelist="71627976-4bf9-4b8d-b830-7ba7f598d2c3" time="1361006541243" ignored="false" />
     <file path="$APPLICATION_HOME_DIR$/lib/webstorm.jar!/standardSchemas/xhtml1-transitional.xsd" changelist="71627976-4bf9-4b8d-b830-7ba7f598d2c3" time="1361006541244" ignored="false" />
     <file path="$APPLICATION_HOME_DIR$/plugins/xpath/lib/xpath.jar!/org/intellij/lang/xpath/xslt/resources/documentation.xml" changelist="71627976-4bf9-4b8d-b830-7ba7f598d2c3" time="1361006541244" ignored="false" />
@@ -43,6 +31,9 @@
     <file path="$USER_HOME$/Develop/workspace.floreysoft/Ultradox Help/war/index.html" changelist="71627976-4bf9-4b8d-b830-7ba7f598d2c3" time="1361008339736" ignored="false" />
     <file path="$USER_HOME$/Develop/workspace.floreysoft/Ultradox Help/war/user.html" changelist="71627976-4bf9-4b8d-b830-7ba7f598d2c3" time="1361008339736" ignored="false" />
     <file path="/README.md" changelist="71627976-4bf9-4b8d-b830-7ba7f598d2c3" time="1361010420974" ignored="false" />
+    <file path="$USER_HOME$/Trainings/Painless JavaScript/jax.html" changelist="71627976-4bf9-4b8d-b830-7ba7f598d2c3" time="1361015703140" ignored="false" />
+    <file path="/jax.html" changelist="71627976-4bf9-4b8d-b830-7ba7f598d2c3" time="1361015703140" ignored="false" />
+    <file path="/sandbox.js" changelist="71627976-4bf9-4b8d-b830-7ba7f598d2c3" time="1361029098223" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,26 +53,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="persons-ts.ts" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/persons-ts.ts">
+      <file leaf-file-name=".gitignore" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/RESTFul Services Demo/war/WEB-INF/lib/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="42" selection-start="568" selection-end="568" vertical-scroll-proportion="0.0">
+            <state line="20" column="0" selection-start="540" selection-end="540" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="persons-class-module-inheritance.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/persons-class-module-inheritance.js">
+      <file leaf-file-name="persons.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/persons.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="25" selection-start="613" selection-end="613" vertical-scroll-proportion="0.0">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="persons-remote.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/RESTFul Services Demo/war/app/persons-remote.html">
+      <file leaf-file-name="persons-ts.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/persons-ts.html">
           <provider selected="true" editor-type-id="text-editor">
             <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
               <folding />
@@ -89,13 +80,29 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="persons-remote.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/RESTFul Services Demo/war/app/persons-remote.js">
+      <file leaf-file-name="persons-class-module-inheritance.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/persons-class-module-inheritance.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="56" column="18" selection-start="1294" selection-end="1294" vertical-scroll-proportion="0.0">
-              <folding>
-                <marker date="1361011694000" expanded="true" signature="1418:1562" placeholder="//..." />
-              </folding>
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="inheritance.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/inheritance.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="13" selection-start="13" selection-end="13" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sandbox.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/sandbox.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="1" selection-start="154" selection-end="154" vertical-scroll-proportion="0.13215859">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -109,10 +116,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/RESTFul Services Demo/war/WEB-INF/lib/.gitignore">
+      <file leaf-file-name="persons-class.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/persons-class.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="0" selection-start="540" selection-end="540" vertical-scroll-proportion="0.33039647">
+            <state line="12" column="0" selection-start="15" selection-end="291" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="persons-class-module.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/persons-class-module.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -139,6 +155,7 @@
         <option value="$PROJECT_DIR$/customers-ts.ts" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/RESTFul Services Demo/war/WEB-INF/lib/.gitignore" />
+        <option value="$PROJECT_DIR$/sandbox.js" />
       </list>
     </option>
   </component>
@@ -191,160 +208,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="large-scale-development-with-JavaScript-demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="large-scale-development-with-JavaScript-demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="RESTFul Services Demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="large-scale-development-with-JavaScript-demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="large-scale-development-with-JavaScript-demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="RESTFul Services Demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="war" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="large-scale-development-with-JavaScript-demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="large-scale-development-with-JavaScript-demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="RESTFul Services Demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="war" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WEB-INF" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="large-scale-development-with-JavaScript-demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="large-scale-development-with-JavaScript-demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="RESTFul Services Demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="war" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WEB-INF" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="large-scale-development-with-JavaScript-demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="large-scale-development-with-JavaScript-demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="RESTFul Services Demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="war" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="large-scale-development-with-JavaScript-demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="large-scale-development-with-JavaScript-demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="RESTFul Services Demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="large-scale-development-with-JavaScript-demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="large-scale-development-with-JavaScript-demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="RESTFul Services Demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="eu" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="zeigermann" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="customers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -369,6 +232,11 @@
       </server>
     </servers>
   </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
       <option name="VMOptions" />
@@ -388,23 +256,47 @@
     <list size="0" />
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="sslv3">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <configuration useDefault="true">$USER_HOME$/.subversion</configuration>
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="71627976-4bf9-4b8d-b830-7ba7f598d2c3" name="Default" comment="" />
       <created>1360862919892</created>
       <updated>1360862919892</updated>
     </task>
+    <task id="LOCAL-00001" summary="Added support for&#10;- JSONP&#10;- Memcache Service on Google App Engine&#10;- Jackson generated JSON">
+      <created>1361012689220</created>
+      <updated>1361012689220</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1920" height="1054" extended-state="6" />
     <editor active="false" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17929563" sideWeight="0.67094016" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17929563" sideWeight="0.67094016" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -424,8 +316,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
-    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="true" />
-    <option name="CHECK_NEW_TODO" value="true" />
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
     <option name="myTodoPanelSettings">
       <value>
         <are-packages-shown value="false" />
@@ -460,7 +352,7 @@
     <option name="COMMIT_MESSAGE_MARGIN_SIZE" value="72" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added support for&#10;- JSONP&#10;- Memcache Service on Google App Engine&#10;- Jackson generated JSON" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -474,42 +366,15 @@
     <option name="UPDATE_FILTER_BY_SCOPE" value="false" />
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
+    <MESSAGE value="Added support for&#10;- JSONP&#10;- Memcache Service on Google App Engine&#10;- Jackson generated JSON" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/persons-ts.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="42" selection-start="568" selection-end="568" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/persons-class-module-inheritance.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="25" selection-start="613" selection-end="613" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/persons-ts.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="42" selection-start="568" selection-end="568" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/RESTFul Services Demo/src/eu/zeigermann/demo/customers/CustomerRestEndpoint.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="20" column="72" selection-start="597" selection-end="597" vertical-scroll-proportion="0.33039647">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/persons-class-module-inheritance.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="25" selection-start="613" selection-end="613" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -525,8 +390,71 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="56" column="18" selection-start="1294" selection-end="1294" vertical-scroll-proportion="0.0">
           <folding>
-            <marker date="1361011694000" expanded="true" signature="1418:1562" placeholder="//..." />
+            <marker date="1361011694000" expanded="true" signature="-1:-1" placeholder="//..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RESTFul Services Demo/war/WEB-INF/lib/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="0" selection-start="540" selection-end="540" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/persons-class.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="0" selection-start="15" selection-end="291" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/persons-class-module.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/persons.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/persons-ts.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="42" selection-start="568" selection-end="568" vertical-scroll-proportion="0.3469163">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/persons-ts.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/persons-class-module-inheritance.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/persons-class-module-inheritance.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="0" selection-start="547" selection-end="674" vertical-scroll-proportion="0.37288135">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inheritance.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="13" selection-start="13" selection-end="13" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
@@ -537,9 +465,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/RESTFul Services Demo/war/WEB-INF/lib/.gitignore">
+    <entry file="file://$PROJECT_DIR$/sandbox.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="0" selection-start="540" selection-end="540" vertical-scroll-proportion="0.33039647">
+        <state line="8" column="1" selection-start="154" selection-end="154" vertical-scroll-proportion="0.13215859">
           <folding />
         </state>
       </provider>
