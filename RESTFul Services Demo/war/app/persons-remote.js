@@ -55,8 +55,8 @@ var CustomerModule = {};
 
 var CustomerApp = angular.module('CustomerApp', ['ngResource']);
 CustomerApp.factory('customerResource', function($resource) {
-//    var server = 'https://rest-demo-server.appspot.com'; // app engine server
-    var server = ''; // this file served from same server
+    var server = 'https://rest-demo-server.appspot.com'; // app engine server
+//    var server = ''; // this file served from same server
 //    var server = 'http://localhost\\:8888'; // local server, this without web server
     var customerResource = $resource(server+'/customer/:id/:name/:age/:gender');
     return customerResource;

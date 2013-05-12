@@ -27,9 +27,6 @@ var CustomerModule;
         Customer.nextNumber = function nextNumber() {
             return Customer.sequence++;
         }
-        Customer.prototype.getId = function () {
-            return this.id;
-        };
         return Customer;
     })(Person);
     CustomerModule.Customer = Customer;    

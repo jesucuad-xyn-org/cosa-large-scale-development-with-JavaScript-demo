@@ -1,16 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="71627976-4bf9-4b8d-b830-7ba7f598d2c3" name="Default" comment="Added support for&#10;- JSONP&#10;- Memcache Service on Google App Engine&#10;- Jackson generated JSON">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application SPA Web Client - Fat.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application SPA Web Client - Lean.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application Stability.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+    <list default="true" id="71627976-4bf9-4b8d-b830-7ba7f598d2c3" name="Default" comment="Added illustrations">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Generated_files.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/RESTFul Services Demo/.settings/com.google.appengine.eclipse.core.prefs" afterPath="$PROJECT_DIR$/RESTFul Services Demo/.settings/com.google.appengine.eclipse.core.prefs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/RESTFul Services Demo/war/app/persons-remote.html" afterPath="$PROJECT_DIR$/RESTFul Services Demo/war/app/persons-remote.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/RESTFul Services Demo/war/app/persons-remote.js" afterPath="$PROJECT_DIR$/RESTFul Services Demo/war/app/persons-remote.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/persons-ts.js.map" afterPath="$PROJECT_DIR$/persons-ts.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/persons-ts.js" afterPath="$PROJECT_DIR$/persons-ts.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="large-scale-development-with-JavaScript-demo.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="71627976-4bf9-4b8d-b830-7ba7f598d2c3" time="1361036212914" ignored="false" />
+    <file path="/Dummy.txt" changelist="71627976-4bf9-4b8d-b830-7ba7f598d2c3" time="1368399383747" ignored="false" />
     <file path="$APPLICATION_HOME_DIR$/lib/webstorm.jar!/standardSchemas/html5/xhtml5.xsd" changelist="71627976-4bf9-4b8d-b830-7ba7f598d2c3" time="1361006541243" ignored="false" />
     <file path="$APPLICATION_HOME_DIR$/lib/webstorm.jar!/standardSchemas/xhtml1-transitional.xsd" changelist="71627976-4bf9-4b8d-b830-7ba7f598d2c3" time="1361006541244" ignored="false" />
     <file path="$APPLICATION_HOME_DIR$/plugins/xpath/lib/xpath.jar!/org/intellij/lang/xpath/xslt/resources/documentation.xml" changelist="71627976-4bf9-4b8d-b830-7ba7f598d2c3" time="1361006541244" ignored="false" />
@@ -26,14 +28,90 @@
     <file path="$APPLICATION_HOME_DIR$/lib/webstorm.jar!/standardSchemas/xslt-2_0.xsd" changelist="71627976-4bf9-4b8d-b830-7ba7f598d2c3" time="1361006541244" ignored="false" />
     <file path="$APPLICATION_HOME_DIR$/lib/webstorm.jar!/standardSchemas/XMLSchema-instance.xsd" changelist="71627976-4bf9-4b8d-b830-7ba7f598d2c3" time="1361006541244" ignored="false" />
     <file path="$APPLICATION_HOME_DIR$/lib/webstorm.jar!/resources/relaxng.rng" changelist="71627976-4bf9-4b8d-b830-7ba7f598d2c3" time="1361006541244" ignored="false" />
-    <file path="$USER_HOME$/Develop/workspace.floreysoft/Ultradox Help/war/reference.html" changelist="71627976-4bf9-4b8d-b830-7ba7f598d2c3" time="1361008932087" ignored="false" />
-    <file path="/reference.html" changelist="71627976-4bf9-4b8d-b830-7ba7f598d2c3" time="1361008932087" ignored="false" />
+    <file path="$USER_HOME$/Develop/workspace.floreysoft/Ultradox Help/war/reference.html" changelist="71627976-4bf9-4b8d-b830-7ba7f598d2c3" time="1361358009238" ignored="false" />
+    <file path="/reference.html" changelist="71627976-4bf9-4b8d-b830-7ba7f598d2c3" time="1361357979594" ignored="false" />
     <file path="$USER_HOME$/Develop/workspace.floreysoft/Ultradox Help/war/index.html" changelist="71627976-4bf9-4b8d-b830-7ba7f598d2c3" time="1361008339736" ignored="false" />
     <file path="$USER_HOME$/Develop/workspace.floreysoft/Ultradox Help/war/user.html" changelist="71627976-4bf9-4b8d-b830-7ba7f598d2c3" time="1361008339736" ignored="false" />
     <file path="/README.md" changelist="71627976-4bf9-4b8d-b830-7ba7f598d2c3" time="1361010420974" ignored="false" />
     <file path="$USER_HOME$/Trainings/Painless JavaScript/jax.html" changelist="71627976-4bf9-4b8d-b830-7ba7f598d2c3" time="1361015703140" ignored="false" />
     <file path="/jax.html" changelist="71627976-4bf9-4b8d-b830-7ba7f598d2c3" time="1361015703140" ignored="false" />
     <file path="/sandbox.js" changelist="71627976-4bf9-4b8d-b830-7ba7f598d2c3" time="1361029098223" ignored="false" />
+    <file path="$USER_HOME$/Develop/Sandbox/ultradox-jsonp/index.html" changelist="71627976-4bf9-4b8d-b830-7ba7f598d2c3" time="1361281538353" ignored="false" />
+    <file path="/index.html" changelist="71627976-4bf9-4b8d-b830-7ba7f598d2c3" time="1363369580624" ignored="false" />
+    <file path="$USER_HOME$/Develop/Sandbox/ultradox-jsonp/app.js" changelist="71627976-4bf9-4b8d-b830-7ba7f598d2c3" time="1361357914413" ignored="false" />
+    <file path="/SpecRunner.html" changelist="71627976-4bf9-4b8d-b830-7ba7f598d2c3" time="1361351663197" ignored="false" />
+    <file path="$USER_HOME$/Trainings/JavaScript Training/code/5 jQuery/spec/SpecRunner.html" changelist="71627976-4bf9-4b8d-b830-7ba7f598d2c3" time="1361351663198" ignored="false" />
+    <file path="$PROJECT_DIR$/../iEinkaufsZettleExtJS/index.html" changelist="71627976-4bf9-4b8d-b830-7ba7f598d2c3" time="1363181845730" ignored="false" />
+    <file path="$PROJECT_DIR$/../iEinkaufsZettleExtJS/app.js" changelist="71627976-4bf9-4b8d-b830-7ba7f598d2c3" time="1363211896849" ignored="false" />
+    <file path="/app.js" changelist="71627976-4bf9-4b8d-b830-7ba7f598d2c3" time="1366120492267" ignored="false" />
+    <file path="$USER_HOME$/Trainings/JavaScript Training/ext-js.html" changelist="71627976-4bf9-4b8d-b830-7ba7f598d2c3" time="1363283525284" ignored="false" />
+    <file path="/ext-js.html" changelist="71627976-4bf9-4b8d-b830-7ba7f598d2c3" time="1363283443879" ignored="false" />
+    <file path="$USER_HOME$/Trainings/JavaScript Training/index.html" changelist="71627976-4bf9-4b8d-b830-7ba7f598d2c3" time="1363283455241" ignored="false" />
+    <file path="$USER_HOME$/Trainings/JavaScript Training/101/index.html" changelist="71627976-4bf9-4b8d-b830-7ba7f598d2c3" time="1363369592021" ignored="false" />
+    <file path="$USER_HOME$/Trainings/JavaScript Training/.idea/workspace.xml" changelist="71627976-4bf9-4b8d-b830-7ba7f598d2c3" time="1363283599921" ignored="false" />
+    <file path="/persons-ts.ts" changelist="71627976-4bf9-4b8d-b830-7ba7f598d2c3" time="1366041524204" ignored="false" />
+    <file path="$USER_HOME$/New Trainings/JavaScript Training/code-ext/2 Form/app.js" changelist="71627976-4bf9-4b8d-b830-7ba7f598d2c3" time="1366125137791" ignored="false" />
+    <file path="$USER_HOME$/New Trainings/JavaScript Training/code-ext/3 Grid/app.js" changelist="71627976-4bf9-4b8d-b830-7ba7f598d2c3" time="1366125137791" ignored="false" />
+    <file path="$USER_HOME$/New Trainings/JavaScript Training/ext/xtypes-ext.html" changelist="71627976-4bf9-4b8d-b830-7ba7f598d2c3" time="1366112173575" ignored="false" />
+    <file path="/xtypes-ext.html" changelist="71627976-4bf9-4b8d-b830-7ba7f598d2c3" time="1366111152801" ignored="false" />
+    <file path="$USER_HOME$/New Trainings/JavaScript Training/code-ext/5 Complete/service.js" changelist="71627976-4bf9-4b8d-b830-7ba7f598d2c3" time="1366111447858" ignored="false" />
+    <file path="/service.js" changelist="71627976-4bf9-4b8d-b830-7ba7f598d2c3" time="1366111402117" ignored="false" />
+    <file path="$USER_HOME$/New Trainings/JavaScript Training/code-ext/5 Complete/app.js" changelist="71627976-4bf9-4b8d-b830-7ba7f598d2c3" time="1366125137791" ignored="false" />
+    <file path="$USER_HOME$/New Trainings/JavaScript Training/code-ext/Sandbox/oo.js" changelist="71627976-4bf9-4b8d-b830-7ba7f598d2c3" time="1366118609820" ignored="false" />
+    <file path="/oo.js" changelist="71627976-4bf9-4b8d-b830-7ba7f598d2c3" time="1366118608445" ignored="false" />
+    <file path="$USER_HOME$/New Trainings/JavaScript Training/ext/advanced-javascript-for-ext.html" changelist="71627976-4bf9-4b8d-b830-7ba7f598d2c3" time="1366200079391" ignored="false" />
+    <file path="/advanced-javascript-for-ext.html" changelist="71627976-4bf9-4b8d-b830-7ba7f598d2c3" time="1366199998295" ignored="false" />
+    <file path="$USER_HOME$/New Trainings/JavaScript Training/code-ext/5 Complete/index.html" changelist="71627976-4bf9-4b8d-b830-7ba7f598d2c3" time="1366118031717" ignored="false" />
+    <file path="$USER_HOME$/New Trainings/JavaScript Training/code-ext/5 Complete/MortgageCalculator.js" changelist="71627976-4bf9-4b8d-b830-7ba7f598d2c3" time="1366119099986" ignored="false" />
+    <file path="/MortgageCalculator.js" changelist="71627976-4bf9-4b8d-b830-7ba7f598d2c3" time="1366118335251" ignored="false" />
+    <file path="$USER_HOME$/New Trainings/JavaScript Training/code-ext/5 Complete/CalculatorResult.js" changelist="71627976-4bf9-4b8d-b830-7ba7f598d2c3" time="1366118316901" ignored="false" />
+    <file path="/CalculatorResult.js" changelist="71627976-4bf9-4b8d-b830-7ba7f598d2c3" time="1366118199385" ignored="false" />
+    <file path="$USER_HOME$/New Trainings/JavaScript Training/code-ext/5b Complete/app.js" changelist="71627976-4bf9-4b8d-b830-7ba7f598d2c3" time="1366120495556" ignored="false" />
+    <file path="$USER_HOME$/New Trainings/JavaScript Training/code/sandbox/sandbox.js" changelist="71627976-4bf9-4b8d-b830-7ba7f598d2c3" time="1366125000460" ignored="false" />
+    <file path="$USER_HOME$/New Trainings/JavaScript Training/code/2 vanilla/index.html" changelist="71627976-4bf9-4b8d-b830-7ba7f598d2c3" time="1366125000460" ignored="false" />
+    <file path="$USER_HOME$/New Trainings/JavaScript Training/code/3 vanilla-decoupled/index.html" changelist="71627976-4bf9-4b8d-b830-7ba7f598d2c3" time="1366125000460" ignored="false" />
+    <file path="$USER_HOME$/New Trainings/JavaScript Training/code/grundlagen2/sandbox.js" changelist="71627976-4bf9-4b8d-b830-7ba7f598d2c3" time="1366125000460" ignored="false" />
+    <file path="$USER_HOME$/New Trainings/JavaScript Training/.idea/workspace.xml" changelist="71627976-4bf9-4b8d-b830-7ba7f598d2c3" time="1368398776695" ignored="false" />
+    <file path="$PROJECT_DIR$/../typescript-sandbox/classes.ts" changelist="71627976-4bf9-4b8d-b830-7ba7f598d2c3" time="1366205155285" ignored="false" />
+    <file path="$PROJECT_DIR$/../typescript-sandbox/classes.html" changelist="71627976-4bf9-4b8d-b830-7ba7f598d2c3" time="1366181177299" ignored="false" />
+    <file path="/classes.html" changelist="71627976-4bf9-4b8d-b830-7ba7f598d2c3" time="1366181175700" ignored="false" />
+    <file path="$PROJECT_DIR$/../typescript-sandbox/types.ts" changelist="71627976-4bf9-4b8d-b830-7ba7f598d2c3" time="1366181418036" ignored="false" />
+    <file path="$PROJECT_DIR$/../typescript-sandbox/types.html" changelist="71627976-4bf9-4b8d-b830-7ba7f598d2c3" time="1366181430363" ignored="false" />
+    <file path="/types.html" changelist="71627976-4bf9-4b8d-b830-7ba7f598d2c3" time="1366181429707" ignored="false" />
+    <file path="$PROJECT_DIR$/../typescript-sandbox/module.ts" changelist="71627976-4bf9-4b8d-b830-7ba7f598d2c3" time="1366181499601" ignored="false" />
+    <file path="$PROJECT_DIR$/../typescript-sandbox/modules.ts" changelist="71627976-4bf9-4b8d-b830-7ba7f598d2c3" time="1366181513295" ignored="false" />
+    <file path="$PROJECT_DIR$/../typescript-sandbox/modules.html" changelist="71627976-4bf9-4b8d-b830-7ba7f598d2c3" time="1366181642861" ignored="false" />
+    <file path="/modules.html" changelist="71627976-4bf9-4b8d-b830-7ba7f598d2c3" time="1366181642167" ignored="false" />
+    <file path="$PROJECT_DIR$/../typescript-sandbox/inheritance.ts" changelist="71627976-4bf9-4b8d-b830-7ba7f598d2c3" time="1366181770373" ignored="false" />
+    <file path="$PROJECT_DIR$/../typescript-sandbox/inheritance.html" changelist="71627976-4bf9-4b8d-b830-7ba7f598d2c3" time="1366181792500" ignored="false" />
+    <file path="/inheritance.html" changelist="71627976-4bf9-4b8d-b830-7ba7f598d2c3" time="1366181788298" ignored="false" />
+    <file path="$USER_HOME$/Develop/extjsProjects/MortgageApp/app/view/MortgageForm.js" changelist="71627976-4bf9-4b8d-b830-7ba7f598d2c3" time="1366189623602" ignored="false" />
+    <file path="/MortgageForm.js" changelist="71627976-4bf9-4b8d-b830-7ba7f598d2c3" time="1366189579374" ignored="false" />
+    <file path="$USER_HOME$/Develop/extjsProjects/MortgageApp/app/controller/Form.js" changelist="71627976-4bf9-4b8d-b830-7ba7f598d2c3" time="1366190788430" ignored="false" />
+    <file path="/Form.js" changelist="71627976-4bf9-4b8d-b830-7ba7f598d2c3" time="1366190780651" ignored="false" />
+    <file path="$USER_HOME$/Develop/extjsProjects/MortgageApp/app/model/Mortgage.js" changelist="71627976-4bf9-4b8d-b830-7ba7f598d2c3" time="1366191568458" ignored="false" />
+    <file path="/classes.ts" changelist="71627976-4bf9-4b8d-b830-7ba7f598d2c3" time="1366205154551" ignored="false" />
+    <file path="$PROJECT_DIR$/../typescript-sandbox/classes.js" changelist="71627976-4bf9-4b8d-b830-7ba7f598d2c3" time="1366205157711" ignored="false" />
+    <file path="$USER_HOME$/Develop/extjsProjects/MortgageApp/app-test/specs/rest.js" changelist="71627976-4bf9-4b8d-b830-7ba7f598d2c3" time="1366195639849" ignored="false" />
+    <file path="$USER_HOME$/Develop/extjsProjects/MortgageApp/app-test/specs/mvc.js" changelist="71627976-4bf9-4b8d-b830-7ba7f598d2c3" time="1366195647434" ignored="false" />
+    <file path="$PROJECT_DIR$/../typescript-sandbox/sandbox.ts" changelist="71627976-4bf9-4b8d-b830-7ba7f598d2c3" time="1368288061867" ignored="false" />
+    <file path="$USER_HOME$/New Trainings/JavaScript Training/techniken-tools/typescript.html" changelist="71627976-4bf9-4b8d-b830-7ba7f598d2c3" time="1368289602839" ignored="false" />
+    <file path="/typescript.html" changelist="71627976-4bf9-4b8d-b830-7ba7f598d2c3" time="1368289512169" ignored="false" />
+    <file path="$PROJECT_DIR$/../typescript-sandbox/sandbox.js" changelist="71627976-4bf9-4b8d-b830-7ba7f598d2c3" time="1368288062941" ignored="false" />
+    <file path="/sandbox.ts" changelist="71627976-4bf9-4b8d-b830-7ba7f598d2c3" time="1368288061072" ignored="false" />
+    <file path="$PROJECT_DIR$/../typescript-sandbox/ambient.ts" changelist="71627976-4bf9-4b8d-b830-7ba7f598d2c3" time="1368288413835" ignored="false" />
+    <file path="$PROJECT_DIR$/../typescript-sandbox/ambient.js" changelist="71627976-4bf9-4b8d-b830-7ba7f598d2c3" time="1368288420819" ignored="false" />
+    <file path="$USER_HOME$/New Trainings/JavaScript Training/techniken-tools/themen-tools.html" changelist="71627976-4bf9-4b8d-b830-7ba7f598d2c3" time="1368307972162" ignored="false" />
+    <file path="$USER_HOME$/New Trainings/JavaScript Training/techniken-tools/require.html" changelist="71627976-4bf9-4b8d-b830-7ba7f598d2c3" time="1368290492920" ignored="false" />
+    <file path="/require.html" changelist="71627976-4bf9-4b8d-b830-7ba7f598d2c3" time="1368290491054" ignored="false" />
+    <file path="$USER_HOME$/New Trainings/JavaScript Training/techniken-tools/html5.html" changelist="71627976-4bf9-4b8d-b830-7ba7f598d2c3" time="1368306652383" ignored="false" />
+    <file path="/html5.html" changelist="71627976-4bf9-4b8d-b830-7ba7f598d2c3" time="1368306652383" ignored="false" />
+    <file path="$USER_HOME$/New Trainings/JavaScript Training/Trainer/rahmen.txt" changelist="71627976-4bf9-4b8d-b830-7ba7f598d2c3" time="1368304045059" ignored="false" />
+    <file path="/rahmen.txt" changelist="71627976-4bf9-4b8d-b830-7ba7f598d2c3" time="1368304045059" ignored="false" />
+    <file path="$USER_HOME$/New Trainings/JavaScript Training/frameworks/themen-frameworks.html" changelist="71627976-4bf9-4b8d-b830-7ba7f598d2c3" time="1368307818978" ignored="false" />
+    <file path="/themen-frameworks.html" changelist="71627976-4bf9-4b8d-b830-7ba7f598d2c3" time="1368307024786" ignored="false" />
+    <file path="/themen-tools.html" changelist="71627976-4bf9-4b8d-b830-7ba7f598d2c3" time="1368307972162" ignored="false" />
+    <file path="$USER_HOME$/New Trainings/JavaScript Training/frameworks/bootstrap.html" changelist="71627976-4bf9-4b8d-b830-7ba7f598d2c3" time="1368307836950" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,82 +131,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name=".gitignore" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/RESTFul Services Demo/war/WEB-INF/lib/.gitignore">
+      <file leaf-file-name="persons-remote.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/RESTFul Services Demo/war/app/persons-remote.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="0" selection-start="540" selection-end="540" vertical-scroll-proportion="0.0">
+            <state line="22" column="41" selection-start="874" selection-end="874" vertical-scroll-proportion="11.291667">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="persons.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/persons.js">
+      <file leaf-file-name="persons-remote.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/RESTFul Services Demo/war/app/persons-remote.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="73" column="19" selection-start="2068" selection-end="2068" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="persons-ts.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/persons-ts.html">
+      <file leaf-file-name="persons-ts.ts" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/persons-ts.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="persons-class-module-inheritance.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/persons-class-module-inheritance.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="inheritance.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/inheritance.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="13" selection-start="13" selection-end="13" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="sandbox.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/sandbox.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="1" selection-start="154" selection-end="154" vertical-scroll-proportion="0.13215859">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="README.md" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="0" selection-start="441" selection-end="441" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="persons-class.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/persons-class.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="0" selection-start="15" selection-end="291" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="persons-class-module.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/persons-class-module.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="46" column="0" selection-start="1126" selection-end="1126" vertical-scroll-proportion="0.9478022">
               <folding />
             </state>
           </provider>
@@ -156,13 +180,16 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/RESTFul Services Demo/war/WEB-INF/lib/.gitignore" />
         <option value="$PROJECT_DIR$/sandbox.js" />
+        <option value="$PROJECT_DIR$/persons-ts.ts" />
+        <option value="$PROJECT_DIR$/RESTFul Services Demo/war/app/persons-remote.html" />
+        <option value="$PROJECT_DIR$/RESTFul Services Demo/war/app/persons-remote.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="22" />
-    <option name="width" value="1920" />
-    <option name="height" value="1054" />
+    <option name="width" value="1440" />
+    <option name="height" value="874" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -190,6 +217,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -208,9 +236,62 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="large-scale-development-with-JavaScript-demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="large-scale-development-with-JavaScript-demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RESTFul Services Demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="large-scale-development-with-JavaScript-demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="large-scale-development-with-JavaScript-demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RESTFul Services Demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="war" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="large-scale-development-with-JavaScript-demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="large-scale-development-with-JavaScript-demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RESTFul Services Demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="war" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -218,8 +299,8 @@
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="options.lastSelected" value="preferences.keymap" />
     <property name="FullScreen" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="PublishConfig">
     <servers>
@@ -284,28 +365,32 @@
       <created>1361012689220</created>
       <updated>1361012689220</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added illustrations">
+      <created>1361036255053</created>
+      <updated>1361036255053</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1920" height="1054" extended-state="6" />
+    <frame x="0" y="22" width="1440" height="874" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32936507" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17929563" sideWeight="0.67094016" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20229556" sideWeight="0.6719577" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32905984" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32936507" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32804233" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -337,7 +422,7 @@
     <option name="SHOW_ONLY_CHANGED_IN_SELECTION_DIFF" value="true" />
     <option name="CHECK_COMMIT_MESSAGE_SPELLING" value="true" />
     <option name="DEFAULT_PATCH_EXTENSION" value="patch" />
-    <option name="SHORT_DIFF_HORISONTALLY" value="true" />
+    <option name="SHORT_DIFF_HORIZONTALLY" value="true" />
     <option name="SHORT_DIFF_EXTRA_LINES" value="2" />
     <option name="SOFT_WRAPS_IN_SHORT_DIFF" value="true" />
     <option name="INCLUDE_TEXT_INTO_PATCH" value="false" />
@@ -350,9 +435,10 @@
     <option name="UPDATE_FILTER_SCOPE_NAME" />
     <option name="USE_COMMIT_MESSAGE_MARGIN" value="false" />
     <option name="COMMIT_MESSAGE_MARGIN_SIZE" value="72" />
+    <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added support for&#10;- JSONP&#10;- Memcache Service on Google App Engine&#10;- Jackson generated JSON" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added illustrations" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -367,76 +453,12 @@
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
     <MESSAGE value="Added support for&#10;- JSONP&#10;- Memcache Service on Google App Engine&#10;- Jackson generated JSON" />
+    <MESSAGE value="Added illustrations" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/RESTFul Services Demo/src/eu/zeigermann/demo/customers/CustomerRestEndpoint.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="72" selection-start="597" selection-end="597" vertical-scroll-proportion="0.33039647">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RESTFul Services Demo/war/app/persons-remote.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RESTFul Services Demo/war/app/persons-remote.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="18" selection-start="1294" selection-end="1294" vertical-scroll-proportion="0.0">
-          <folding>
-            <marker date="1361011694000" expanded="true" signature="-1:-1" placeholder="//..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RESTFul Services Demo/war/WEB-INF/lib/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="0" selection-start="540" selection-end="540" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/persons-class.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="0" selection-start="15" selection-end="291" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/persons-class-module.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/persons.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/persons-ts.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="42" selection-start="568" selection-end="568" vertical-scroll-proportion="0.3469163">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/persons-ts.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/persons-class-module-inheritance.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -444,9 +466,52 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="0" selection-start="441" selection-end="441" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sandbox.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="1" selection-start="154" selection-end="154" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RESTFul Services Demo/src/eu/zeigermann/demo/customers/CustomerRestEndpoint.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="145" column="9" selection-start="4540" selection-end="4540" vertical-scroll-proportion="0.4680851" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/sandbox-spec.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/persons-ts.js.map">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="81" selection-start="81" selection-end="81" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/persons-ts.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="49" column="6" selection-start="1524" selection-end="1524" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/persons-class-module.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="0" selection-start="478" selection-end="478" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/persons-class-module-inheritance.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="0" selection-start="547" selection-end="674" vertical-scroll-proportion="0.37288135">
+        <state line="56" column="0" selection-start="1234" selection-end="1234" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -458,16 +523,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
+    <entry file="file://$PROJECT_DIR$/persons-class.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="0" selection-start="441" selection-end="441" vertical-scroll-proportion="0.0">
+        <state line="18" column="40" selection-start="467" selection-end="467" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sandbox.js">
+    <entry file="file://$PROJECT_DIR$/persons.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="1" selection-start="154" selection-end="154" vertical-scroll-proportion="0.13215859">
+        <state line="46" column="52" selection-start="2164" selection-end="2164" vertical-scroll-proportion="0.1903409">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/persons.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="36" selection-start="530" selection-end="530" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RESTFul Services Demo/war/app/persons-remote.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="41" selection-start="874" selection-end="874" vertical-scroll-proportion="11.291667">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RESTFul Services Demo/war/app/persons-remote.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="73" column="19" selection-start="2068" selection-end="2068" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/persons-ts.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="46" column="0" selection-start="1126" selection-end="1126" vertical-scroll-proportion="0.9478022">
           <folding />
         </state>
       </provider>
